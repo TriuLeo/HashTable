@@ -20,7 +20,7 @@ public:
 
 class HashTable {
 private:
-    static const int TABLE_SIZE = 100;
+    static const int TABLE_SIZE = 50;
     vector<Student> table[TABLE_SIZE];
 
     int hashFunction(const string& key) {
